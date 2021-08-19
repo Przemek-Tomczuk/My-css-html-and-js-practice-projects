@@ -1,0 +1,496 @@
+/* Your CSS Here */
+body {
+   background-color: #C7E3F2;
+}
+
+.container {
+    width: 57%;
+    background-color: white;
+    margin: 70px auto;
+    border-radius: 8px;
+}
+
+.imagebox {
+    height: 10rem;
+    background-color: white;
+    position: relative;
+    border-radius: 8px;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 150px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    background-color: white;
+    height: 9rem;
+}
+
+h2 {
+    background-color: white;
+    text-align: center;
+    font-size: 2.10em;
+    font-family: 'Inter',sans-serif;
+    color: #383838;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.title > p {
+    background-color: white;
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+    font-size: 1.08em;
+    color: rgba(0,0,0,0.522);
+    font-weight: 400;
+}
+
+.box1 > h3 {
+    background-color: #4299FF;
+    position: absolute;
+    left: 7.5rem;
+}
+
+.box2 > h3 {
+    background-color: #3288ED;
+    position: absolute;
+    left: 4rem;
+    top: 3.5rem;
+}
+
+.box3 > h3 {
+    background-color: #277DE3;
+    position: absolute;
+    left: 6.4rem;
+    top: 3.5rem;
+}
+
+.box1 {
+    background-color: #4299FF;
+    height: 12rem;
+    position: relative;
+}
+
+.box2 {
+    background-color: #3288ED;
+    height: 16rem;
+    position: relative;
+}
+
+.box3 {
+    background-color: #277DE3;
+    height: 15rem;
+    position: relative;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+h3 {
+    color: white;
+    margin: 0px;
+    position: absolute;
+    left: 5rem;
+    top: 30%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.textbox {
+    position: absolute;
+    left: 13rem;
+    top: 3.5rem;
+    height: 5rem;
+    border-left: solid 0.010rem #73B4FF;
+    background-color: #4299FF;
+}
+
+
+.textbox > p {
+    color: rgba(255,255,255,0.831);
+    background-color: #4299FF;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1.75;
+    margin-left: 3rem;
+    margin-right: 4rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.textbox > ul {
+    color: #CFE5FF;
+    background-color: #3288ED;
+    list-style-type: none;
+    font-family: 'Inter', sans-serif;
+    margin-top: 0px;
+}
+
+ul > li {
+    color: #CFE5FF;
+    background-color: #3288ED;
+    padding: 0.5rem 0;
+    font-weight: 300;
+}
+
+.list > li::before {
+    content: "✓";
+    padding: 0.5rem;
+}
+
+.box2 > .textbox {
+    background-color: #3288ED;
+    height: 9rem
+}
+
+li span {
+    position: relative;
+    left: 0.1rem;
+    background-color: #3288ED;
+}
+
+.box3 > .textbox {
+    background-color: #277DE3;
+    height: 9rem;
+    position: absolute;
+    padding-left: 3rem;
+}
+.button:nth-of-type(1) {
+    position: absolute;
+    width: 6rem;
+}
+.button:nth-of-type(2) {
+    position: absolute;
+    left: 10rem;
+    width: 7rem;
+}
+.button:nth-of-type(3) {
+    position: absolute;
+    top: 3rem;
+    width: 7rem;
+}
+.button:nth-of-type(4) {
+    position: absolute;
+    top: 3rem;
+    left: 11rem;
+    width: 7rem;
+}
+.button:nth-of-type(5) {
+    position: absolute;
+    top: 6rem;
+    width: 6rem;
+
+}
+.button:nth-of-type(6) {
+    position: absolute;
+    top: 6rem;
+    left: 10rem;
+    width: 6rem;
+}
+
+.button {
+    background-color: #277DE3;
+    color: white;
+    border: solid 1px white;
+    border-radius: 0.3rem;
+    font-weight: 300;
+    height: 2rem;
+}
+
+.icon {
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: white; 
+   }
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: #5CE8F6;
+}   
+
+.button:hover {
+    border-color: #5CE8F6;
+}
+
+@media only screen and (max-width: 950px) {
+    .container {
+    width: 85%;
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    .container {
+        width: 85%;
+    }
+    .box1 > h3 {
+        left: 5vw;
+        top: 2rem;
+    }
+
+    .textbox {
+        left: 5vw;
+        top: 5rem;
+        width: 85%;
+        border-top: solid 0.010rem #73B4FF;
+        border-left: none;
+    }
+    .textbox > p {
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 1.4rem;
+        margin-bottom: 0px;
+    }
+    .box2 > h3 {
+        position: absolute;
+        left: 5vw;
+        top: 2.5rem;
+    }
+    .textbox > ul {
+        margin-top: 10px;
+        padding: 0;
+    }
+    .box3 > h3 {
+        left: 5vw;
+        top: 2.5rem;
+    }
+    .box3 > .textbox {
+        padding-left: 1vw;
+        padding-top: 2em;
+        height: 0rem;
+    }
+    .button:nth-of-type(2) {
+        left: 20vw;
+    }
+    .button:nth-of-type(3) {
+        top: 2.05rem;
+        left: 41vw;
+    }
+    .button:nth-of-type(4) {
+        top: 5rem;
+        left: 1vw;
+    }
+    .button:nth-of-type(5) {
+        top: 5rem;
+        left: 22.5vw;
+    }
+    .button:nth-of-type(6) {
+        top: 5rem;
+        left: 41vw;
+    }
+
+}
+
+@media only screen and (max-width: 560px) {
+    .container {
+        width: 90%;
+    }
+    .box3 {
+        height: 17rem;
+    }
+    .box1 > h3 {
+        left: 5vw;
+        top: 2rem;
+    }
+
+    .textbox {
+        left: 5vw;
+        top: 5rem;
+        width: 90%;
+        border-top: solid 0.010rem #73B4FF;
+        border-left: none;
+    }
+    .textbox > p {
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 1.4rem;
+        margin-bottom: 0px;
+    }
+    .box2 > h3 {
+        position: absolute;
+        left: 5vw;
+        top: 2.5rem;
+    }
+    .textbox > ul {
+        margin-top: 10px;
+        padding: 0;
+    }
+    .box3 > h3 {
+        left: 5vw;
+        top: 2.5rem;
+    }
+    .box3 > .textbox {
+        padding-left: 1vw;
+        padding-top: 2em;
+        height: 0rem;
+    }
+    .button:nth-of-type(2) {
+        left: 23vw;
+    }
+    .button:nth-of-type(3) {
+        top: 5rem;
+        left: 1vw;
+    }
+    .button:nth-of-type(4) {
+        top: 5rem;
+        left: 26vw;
+    }
+    .button:nth-of-type(5) {
+        top: 8rem;
+        left: 1vw;
+    }
+    .button:nth-of-type(6) {
+        top: 8rem;
+        left: 23vw;
+    }
+
+}
+
+@media only screen and (max-width: 415px) {
+    .container {
+        width: 90%;
+    }
+    .box3 {
+        height: 17rem;
+    }
+    .box1 > h3 {
+        left: 5vw;
+        top: 2rem;
+    }
+
+    .textbox {
+        left: 5vw;
+        top: 5rem;
+        width: 90%;
+        border-top: solid 0.010rem #73B4FF;
+        border-left: none;
+    }
+    .textbox > p {
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 1.4rem;
+        margin-bottom: 0px;
+    }
+    .box2 > h3 {
+        position: absolute;
+        left: 5vw;
+        top: 2.5rem;
+    }
+    .textbox > ul {
+        margin-top: 10px;
+        padding: 0;
+    }
+    .box3 > h3 {
+        left: 5vw;
+        top: 2.5rem;
+    }
+    .box3 > .textbox {
+        padding-left: 1vw;
+        padding-top: 2em;
+        height: 0rem;
+    }
+    .button:nth-of-type(2) {
+        left: 30vw;
+    }
+    .button:nth-of-type(3) {
+        top: 5rem;
+        left: 1vw;
+    }
+    .button:nth-of-type(4) {
+        top: 5rem;
+        left: 34vw;
+    }
+    .button:nth-of-type(5) {
+        top: 8rem;
+        left: 1vw;
+    }
+    .button:nth-of-type(6) {
+        top: 8rem;
+        left: 30vw;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .container {
+        width: 100%;
+    }
+    .box1 {
+        height: 14rem;
+    }
+    .box3 {
+        height: 17rem;
+    }
+    .box1 > h3 {
+        left: 5vw;
+        top: 2rem;
+    }
+
+    .textbox {
+        left: 5vw;
+        top: 5rem;
+        width: 90%;
+        border-top: solid 0.010rem #73B4FF;
+        border-left: none;
+    }
+    .textbox > p {
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 1.4rem;
+        margin-bottom: 0px;
+    }
+    .box2 > h3 {
+        position: absolute;
+        left: 5vw;
+        top: 2.5rem;
+    }
+    .textbox > ul {
+        margin-top: 10px;
+        padding: 0;
+    }
+    .box3 > h3 {
+        left: 5vw;
+        top: 2.5rem;
+    }
+    .box3 > .textbox {
+        padding-left: 1vw;
+        padding-top: 2em;
+        height: 0rem;
+    }
+    .button:nth-of-type(2) {
+        left: 39vw;
+    }
+    .button:nth-of-type(3) {
+        top: 5rem;
+        left: 1vw;
+    }
+    .button:nth-of-type(4) {
+        top: 5rem;
+        left: 45vw;
+    }
+    .button:nth-of-type(5) {
+        top: 8rem;
+        left: 1vw;
+    }
+    .button:nth-of-type(6) {
+        top: 8rem;
+        left: 39vw;
+    }
+
+}

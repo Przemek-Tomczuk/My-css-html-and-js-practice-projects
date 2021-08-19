@@ -1,0 +1,213 @@
+/* Your CSS here */
+* {
+    margin: 0px;
+}
+.image {
+    width: 0px;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    width: 100%;
+}
+input[type="password"], input[type="email"] {
+    width: 65%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+input[type="password"] {
+    margin-top: 8px;
+}
+input[type="submit"] {
+    width: 74%;
+    margin-top: 15px;
+    padding: 7px;
+    background-color: rgba(135, 206, 250, 0.651);
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+.for-border {
+    width: 100%;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 18%;
+    border-bottom: 1px solid rgb(194, 181, 181);
+}
+form {
+    text-align: center;
+}
+.absolut {
+    position: relative;
+    height: 45px;
+    width: 74%;
+}
+.ornament {
+    background-color: white;
+    position: absolute;
+    width: 50px;
+    margin-left: 55%;
+    margin-top: 16px;
+}
+.ornament > p {
+    text-align: center;
+}
+.inside-wrapper > p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.inside-wrapper > ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+h5 {
+    color: darkblue;
+    font-size: 16px;
+    margin: 20px 0px;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: darkblue;
+}
+h4 > a:visited {
+    color: deepskyblue;
+}
+
+h4 > a:link {
+    color: deepskyblue;
+}
+h4 {
+    margin-top: 50px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.863);
+    text-align: center;
+}
+.getter {
+    font-size: 15px;
+    margin-top: 40px;
+    text-align: center;
+}
+.company {
+    width: 130px;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.button-box {
+    display: flex;
+    justify-content: center;
+}
+
+.greylinks:link {
+    text-decoration: none;
+    color: grey;
+
+}
+.greylinks:visited {
+    text-decoration: none;
+    color: grey;
+}
+
+.firstgreyrow {
+    margin-top: 60px;
+}
+
+.greylinks {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@media only screen and (max-height: 641px) {
+    .firstgreyrow {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 539px) {
+    .wrapper {
+        width: 70%;
+        border: none;
+        border-radius: 4px;
+        margin-top: 50px;
+        margin-bottom: 14px;
+    }
+    body {
+        background-color: #FAFAFA;
+    }
+    .logo {
+        border: 1px solid rgb(209, 197, 197);
+        border-radius: 4px;
+        border-bottom: white;
+    }
+    h4 {
+        margin-top: 0px;
+        padding: 20px 87px;
+        border: 1px solid rgb(209, 197, 197);
+    }
+    .ornament {
+        margin-left: 58%;
+    }
+    .widest-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+      }
+      .inside-wrapper {
+        width: 100%;
+        border: 1px solid rgb(209, 197, 197);
+        border-radius: 4px;
+        margin-top: 50px;
+        margin-bottom: 14px;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+  .wrapper {
+      width: 50%;
+      border: none;
+
+  }
+  .widest-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .inside-wrapper {
+    width: 100%;
+    border: 1px solid rgb(209, 197, 197);
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-bottom: 14px;
+}
+}
+@media only screen and (min-width: 1023px) {
+    .wrapper {
+        width: 35%;
+    }
+    .image {
+        width: 300px;
+        height: 500px;
+        margin: 20px 20px;
+    }
+    .widest-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+      }
+  }
