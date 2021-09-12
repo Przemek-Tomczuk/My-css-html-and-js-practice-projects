@@ -1,0 +1,6 @@
+In order to read this project you have to use a query
+
+?user=user1 or ?user=user2
+
+
+
